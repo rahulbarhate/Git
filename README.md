@@ -1,13 +1,17 @@
 # Git
 
-Setting up Git: -
-1.git init
-2.git config user.name "someone"
-3.git config user.email "someone@someplace.com"
-4.git add *
-5.git commit -m "some init msg"
+## Setting up Git: -
+1. git init
 
-Commands
+2. git config user.name "someone"
+
+3. git config user.email "someone@someplace.com"
+
+4. git add *
+
+5. git commit -m "some init msg"
+
+## Commands: -
 
 
 1.) **`git clone`** - Takes a repository and store it somewhere else like on a server like GitHub
