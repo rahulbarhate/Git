@@ -68,3 +68,8 @@ Syntax: `git checkout branch_name`
 14.) **`git config credential.helper cache`**
 
 
+Daemon Command: git daemon
+
+Serve Alias: git config --global alias.serve "daemon --verbose --export-all --base-path==git --reuseaddr --strict-paths--enable=receive-pack.git/
+
+Clone Command: git clone git://yourmachine/path/to/repo
