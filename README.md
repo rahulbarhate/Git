@@ -63,3 +63,8 @@ Syntax: `git checkout branch_name`
 
 12.) **`git push`** --set-upstream origin name_of_the_branch - Push from local computer to GitHub
 
+13.) **`git config --global pull.rebase true`**
+
+14.) **`git config credential.helper cache`**
+
+
