@@ -42,7 +42,7 @@ Merge Conflicts - When two developers have commited the same file.
 Anything between <<<<< and ==== are the changes made by you on the local system 
 Anything between ==== and >>>> are the changes made by another developer on a remote system
 
-7.) **`git log`** - log of the stuf hapenning
+7.) **`git log`** - log of the stuff happening
 
 8.) **`git reset`** - Get rid of the changes
 
