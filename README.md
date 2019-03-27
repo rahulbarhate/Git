@@ -34,7 +34,7 @@ To add and commit at the same time : `git commit -am "message"`
 
 6.) **`git pull`** - Download the latest version of the repository
 
-Essentially (git feth + fast forward)
+Essentially (git fetch + fast forward)
 
 
 Merge Conflicts - When two developers have commited the same file.
