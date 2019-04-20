@@ -1,5 +1,6 @@
 # Git
 
+This repository contains some of the commonly used Git commands.
 ## Setting up Git: -
 1. git init
 
@@ -77,7 +78,7 @@ Clone Command: git clone git://yourmachine/path/to/repo
 
 ## Working with Git Large File Storage (LFS)
 
-Download and install Git LFS from [here](https://git-lfs.github.com/)
+Download and install Git LFS from [here](https://git-lfs.github.com/).
 
 1.) Setting up Git LFS - `git lfs install`
 
@@ -90,5 +91,7 @@ Make sure .gitattributes is tracked using - `git add .gitattributes`
 3.) Commit and push to GitHub - 
 
 `git add file.psd`
+
 `git commit -m "Some comment which describes your addition"`
+
 `git push origin master`
