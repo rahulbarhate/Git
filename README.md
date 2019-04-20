@@ -73,3 +73,21 @@ Daemon Command: git daemon
 Serve Alias: git config --global alias.serve "daemon --verbose --export-all --base-path==git --reuseaddr --strict-paths--enable=receive-pack.git/
 
 Clone Command: git clone git://yourmachine/path/to/repo
+
+
+## Working with Git Large File Storage (LFS)
+
+Download and install Git LFS from [here](https://git-lfs.github.com/)
+
+1.) Setting up Git LFS - `git lfs install`
+
+This need to be run from the repository directory.
+
+2.) Select the file types you'd like Git LFS to manage - `git lfs track "*.psd"`
+Make sure .gitattributes is tracked using - `git add .gitattributes`
+
+3.) Commit and push to GitHub - 
+
+`git add file.psd`
+`git commit -m "Some comment which describes your addition"`
+`git push origin master`
