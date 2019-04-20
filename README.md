@@ -81,9 +81,10 @@ Download and install Git LFS from [here](https://git-lfs.github.com/)
 
 1.) Setting up Git LFS - `git lfs install`
 
-This need to be run from the repository directory.
+This needs to be run from the repository directory.
 
 2.) Select the file types you'd like Git LFS to manage - `git lfs track "*.psd"`
+
 Make sure .gitattributes is tracked using - `git add .gitattributes`
 
 3.) Commit and push to GitHub - 
